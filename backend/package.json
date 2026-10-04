@@ -1,0 +1,47 @@
+{
+  "name": "secureassess-backend",
+  "version": "1.0.0",
+  "description": "SecureAssess Backend - Node.js + Express + Socket.IO",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.11.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.104.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.4",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.25",
+    "@types/express-session": "^1.17.10",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^1.4.13",
+    "@types/node": "^20.19.43",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/qrcode": "^1.5.6",
+    "@types/uuid": "^9.0.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
